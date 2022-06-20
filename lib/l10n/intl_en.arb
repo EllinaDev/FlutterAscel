@@ -13,5 +13,6 @@
     "signIn": "Sign in",
     "language": "Language",
     "english": "English",
-    "russian": "Russian"
+    "russian": "Russian",
+    "findPerson": "Find person"
 }

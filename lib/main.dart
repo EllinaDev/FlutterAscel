@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_2/ui/characters.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'generated/l10n.dart';
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
       ],
       locale: const Locale('ru', 'RU'),
       supportedLocales: S.delegate.supportedLocales,
-      home: const LoginScreen(),
+      home: const Characters(),
     );
   }
 }

@@ -25,6 +25,8 @@ class S {
 
   static const AppLocalizationDelegate delegate = AppLocalizationDelegate();
 
+  get findPerson => null;
+
   static Future<S> load(Locale locale) {
     final name = (locale.countryCode?.isEmpty ?? false)
         ? locale.languageCode
